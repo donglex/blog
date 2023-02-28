@@ -1,29 +1,27 @@
 {
-    "name": "hexo-theme-quiet",
-    "version": "1.1.0",
-    "description": "🔥A simple, easy to read flat hexo theme. ",
-    "main": "package.json",
-    "scripts": {
-      "test": "echo test"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/79E/hexo-theme-quiet.git"
-    },
-    "keywords": [
-      "hexo",
-      "theme",
-      "quiet"
-    ],
-    "author": "Joey (https://github.com/79E/)",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/79E/hexo-theme-quiet/issues"
-    },
-    "homepage": "https://79e.cc",
-    "devDependencies": {
-      "hexo": "^6.0.0",
-      "hexo-renderer-ejs": "^2.0.0",
-      "hexo-renderer-less": "^4.0.0"
-    }
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "6.3.0"
+  },
+  "dependencies": {
+    "hexo": "^6.3.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-less": "^4.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-landscape": "^0.0.3"
   }
+}
