@@ -1,11 +1,10 @@
 ---
-
-
 title: Docker中的volume到底是个什么东西？
 toc: true
 date: 2021/05/02 19:40:01
 categories:
 - docker
+cover: https://www.docker.com/wp-content/uploads/2021/09/Docker-build.png
 ---
 
 ## 概述

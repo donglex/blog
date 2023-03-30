@@ -1,9 +1,8 @@
 ---
 title: 关于我
-date: 2020-11-03
-aubot: Cange-Q
-portrait: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgIMG_7327.jpeg'
-describe: '一个阳光快乐的BOY,在正合适的年龄里希望遇见正好的你。'
+aubot: About-Me
+portrait: '../image/img.png'
+describe: '这个人没有什么描述'
 type: "about"
 layout: "about"
 comments: false

@@ -4,6 +4,7 @@ toc: true
 date: 2021/05/01 13:03:58
 categories:
 - docker
+cover: https://www.docker.com/wp-content/uploads/2021/09/Moby-share.png
 ---
 ## 安装Docker
 ### 卸载之前版本
