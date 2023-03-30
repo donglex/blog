@@ -4,6 +4,8 @@ toc: true
 date: 2021/05/01 13:03:58
 categories:
 - docker
+tags: 
+  - 安装
 cover: https://www.docker.com/wp-content/uploads/2021/09/Moby-share.png
 ---
 ## 安装Docker
@@ -20,7 +22,6 @@ yum remove docker \
                   docker-engine-selinux \
                   docker-engine
 ```
-<!--more-->
 ### 安装工具
 ```shell
 sudo yum install -y yum-utils

@@ -18,7 +18,6 @@ Docker中的保存数据类型分为四种：
 3. tmpfs （只存在内存中，不会写入文件系统）
 4. pipes （命名管道。用户host和container之前的通信，通常是在container中运行第三方工具）
 
-<!-- more -->
 
 ## volumes
 

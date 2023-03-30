@@ -1,7 +1,7 @@
 # 网站标题
 title: 纯粹的记录
 # 网站标题后缀
-suffix:
+suffix: X
 # 作者名称
 author: Dongle
 # 网站关键字
@@ -28,7 +28,7 @@ menus:
   tags: /tags
 #  links: /links
   about: /about
-  
+
 # logo
 logo: /image/img.png
 # 网页标签上那个小图标 一定要用本地存储

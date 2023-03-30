@@ -10,11 +10,6 @@
       "type": "git",
       "url": "git+https://github.com/79E/hexo-theme-quiet.git"
     },
-    "keywords": [
-      "hexo",
-      "theme",
-      "quiet"
-    ],
     "author": "Joey (https://github.com/79E/)",
     "license": "MIT",
     "bugs": {

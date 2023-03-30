@@ -3,13 +3,12 @@ title: 利用Docker和Nginx部署Hexo静态页面数据
 toc: true 
 date: 2021/04/30 20:39:01
 categories:
-- docker
+ - docker
 ---
 本文讲的是如何用Docker部署hexo，为啥要用nginx呢？hexo是支持生成静态页面的，
 访问速度上静态页面是快于```hexo s```这种开启服务式的。除了本文实现方式，还有另一种方式。
 用docker部署nginx，挂载nginx静态文件目录（卷），在本地生成hexo静态文件，然后丢到挂载的目录里即可。
 这种方式相对简约点，但是笔者并不想在本地生成文件丢到服务器上，所以在上式中多加了一个hexo容器，在这个容器里生成静态文件（同样也挂载生成的静态文件卷），只需拷贝新增的md文件至服务器卷中
-<!--more-->
 
 首先blog目录结构
 ```
@@ -151,7 +150,7 @@ server {
         index  index.html index.htm;
     }
 
-    error_page  404              404.html;
+    error_page  404              405.html;
 
     # redirect server error pages to the static page /50x.html
     #
