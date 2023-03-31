@@ -2,6 +2,6 @@
 Thumbs.db
 *.log
 node_modules/
-public/
 .deploy*/
 _multiconfig.yml
+/public/
